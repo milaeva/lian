@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 1144px;
+   margin: 0 auto;
+ }
+.top_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.col_0{
+  display: flex;
+  justify-content: space-between;
+}
+.menu_head{
+  font-size: 14px;
+  margin-right: 40px;
+  color: #cac4d0;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
