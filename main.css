@@ -239,52 +239,31 @@ footer {
   font-size: 20px;
 }
 
-.facebook:hover {
-  border-color: #3b5998;
-  -webkit-box-shadow: 0px 0px 35px #3b5998;
-          box-shadow: 0px 0px 35px #3b5998;
+.fa-facebook-f:hover {
   color: #3b5998;
 }
 
-.google:hover {
-  border-color: #dd4b39;
-  -webkit-box-shadow: 0px 0px 35px #dd4b39;
-          box-shadow: 0px 0px 35px #dd4b39;
+.fa-google-plus-g:hover {
   color: #dd4b39;
 }
 
-.twitter:hover {
-  border-color: #00a0dc;
-  -webkit-box-shadow: 0px 0px 35px #00a0dc;
-          box-shadow: 0px 0px 35px #00a0dc;
+.fa-twitter:hover {
   color: #00a0dc;
 }
 
-.linkedin:hover {
-  border-color: #0077b5;
-  -webkit-box-shadow: 0px 0px 35px #0077b5;
-          box-shadow: 0px 0px 35px #0077b5;
+.fa-linkedin-in:hover {
   color: #0077b5;
 }
 
-.basketball:hover {
-  border-color: #F2933A;
-  -webkit-box-shadow: 0px 0px 35px #F2933A;
-          box-shadow: 0px 0px 35px #F2933A;
+.fa-basketball-ball:hover {
   color: #F2933A;
 }
 
-.pinterest:hover {
-  border-color: #bd081c;
-  -webkit-box-shadow: 0px 0px 35px #bd081c;
-          box-shadow: 0px 0px 35px #bd081c;
+.fa-pinterest-p:hover {
   color: #bd081c;
 }
 
-.instagram:hover {
-  border-color: #bc2a8d;
-  -webkit-box-shadow: 0px 0px 35px #bc2a8d;
-          box-shadow: 0px 0px 35px #bc2a8d;
+.fa-instagram:hover {
   color: #bc2a8d;
 }
 
@@ -310,7 +289,7 @@ footer {
   line-height: 1.333;
   text-align: left;
   position: absolute;
-  top: 30%;
+  top: 33%;
   width: 458px;
   height: 13px;
   z-index: 77;
@@ -326,7 +305,7 @@ footer {
 .about_text {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #777777;
   line-height: 2.333;
   text-align: left;
 }
@@ -346,13 +325,48 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .col-02 {
   padding-left: 50px;
+}
+
+.col-03 {
+  padding-top: 40px;
+}
+
+.skills {
+  padding-top: 15px;
+}
+
+.cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cols_txt {
+  width: 100%;
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.col-04,
+.col-05,
+.col-06 {
+  width: 33.33%;
+  margin-right: 10px;
+}
+
+.about-teams {
+  width: 100%;
+}
+
+.footers {
+  background: #fff;
+  margin-top: 60px;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
