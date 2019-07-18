@@ -129,8 +129,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -148,7 +149,7 @@ body {
   color: #777777;
   font-weight: bold;
   line-height: 1.714;
-  margin-top: 19px;
+  margin: 20px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -203,6 +204,7 @@ span.bord {
 
 .logo_f {
   padding-left: 44%;
+  padding-top: 3%;
 }
 
 footer {
@@ -315,9 +317,15 @@ footer {
 }
 
 .slide_about {
-  background-image: url(icon/02/bg_about.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 350px;
+  background-image: url(icon/02/bg_about.png);
+}
+.slide_portfolio {
+  background-image: url(icon/03/bg_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 350px;
 }
 
@@ -364,9 +372,42 @@ footer {
 }
 
 .footers {
+  height: 144px;
   background: #fff;
   margin-top: 60px;
   padding-top: 20px;
+}
+
+.socials {
+  background: #fff;
+}
+
+.portfolio_title {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background: #000000;
+  text-transform: uppercase;
+  line-height: 1.7;
+  text-align: center;
+  position: absolute;
+  top: 27%;
+  width: 500px;
+  height: 80px;
+  z-index: 76;
+}
+.portfolio-sub_title {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.333;
+  text-align: left;
+  position: absolute;
+  top: 43%;
+  width: 458px;
+  height: 13px;
+  z-index: 77;
 }
 
 /*# sourceMappingURL=main.css.map */
